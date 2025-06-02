@@ -3,9 +3,8 @@ import logging
 import joblib
 from datetime import datetime
 import pandas as pd
-from predict_weather import predict_weather  # Harorat modeli funksiyasi
-
-API_TOKEN = "7868778041:AAE1_nUDZDFB0Gq5l-3gHVjtVxzEjEadUEc"
+from predict_weather import predict_weather
+from config import API_TOKEN
 
 logging.basicConfig(level=logging.INFO)
 bot = Bot(token=API_TOKEN)
